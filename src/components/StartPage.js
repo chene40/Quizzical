@@ -1,8 +1,7 @@
 import React from 'react'
 
-export default function StartPage(){
-
-    return(
+const StartPage = () => {
+    return (
         <div className="start-page">
             <h1 className="start-page-title">Quizzical</h1>
             <p className="start-page-desc">Some description if needed</p>
@@ -10,3 +9,5 @@ export default function StartPage(){
         </div>
     )
 }
+
+export default StartPage
